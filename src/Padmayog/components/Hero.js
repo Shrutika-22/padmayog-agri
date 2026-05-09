@@ -12,7 +12,7 @@ export const Hero=()=>{
                 </p>
                 <div>
                     <Button variant="light" className="me-3">
-                        Request a Quote  andadjddjdewej
+                        Request a Quote  
                     </Button>
                     <Button variant="outline-light">
                     Our Services    
