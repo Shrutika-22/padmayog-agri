@@ -1,0 +1,313 @@
+.global-hero {
+  min-height: 62vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),
+    url("./Padmayog/assets/hero-bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+
+  padding: 20px 0 40px;
+
+  color: white;
+  text-align: center;
+}
+
+.global-overlay-content {
+  max-width: 900px;
+  margin: auto;
+ 
+}
+
+.global-overlay-content h1 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 18px;
+  text-shadow: 0 4px 15px rgba(0,0,0,0.35);
+}
+
+.global-overlay-content p {
+  font-size: 18px;
+  line-height: 1.3;
+  max-width: 650px;
+  margin: auto;
+  color: #f3f4f6;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* Global Network Section */
+.global-network-section {
+  padding: 10px 0;
+  background: #f8fafc;
+}
+
+.global-network-box {
+  background: white;
+  border-radius: 16px;
+  padding: 12px 38px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.global-network-box h2 {
+  color: #8b3f0a;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.network-subtitle {
+  max-width: 760px;
+  margin: 0 auto 42px;
+  color: #374151;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.india-hub-card {
+  max-width: 520px;
+  margin: 0 auto 42px;
+  background: #2f8f57;
+  color: white;
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
+.india-hub-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.india-hub-card h5 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.india-hub-card p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.country-card {
+  position: relative;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 24px 18px;
+  min-height: 120px;
+}
+
+.down-arrow {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #16834f;
+  font-size: 28px;
+}
+
+.country-card h3 {
+  color: #8b3f0a;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.country-card p {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.country-card span {
+  background: #f1f3f5;
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-size: 12px;
+  margin: 0 5px;
+  color: #374151;
+}
+
+/* Countries Section */
+.countries-section {
+  padding: 20px 0 40px;
+  background: #f4f3df;
+  text-align: center;
+}
+
+.countries-section .section-title {
+  margin-bottom: 20px;
+}
+
+.countries-section .section-title h2 {
+  color: #8b3f0a;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.countries-section .section-title p {
+  max-width: 760px;
+  margin: auto;
+
+  color: #374151;
+
+  font-size: 16px;
+
+  line-height: 1.3;
+}
+
+.coming-soon-card {
+  max-width: 640px;
+
+  margin: auto;
+
+  background: white;
+
+  border: 1px solid #bfd9c5;
+
+  border-radius: 14px;
+
+  padding: 14px 32px;
+
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+}
+
+.coming-icon {
+  font-size: 52px;
+  margin-bottom: 18px;
+  line-height: 1;
+}
+
+.coming-soon-card h3 {
+  color: #4b9b68;
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  margin-bottom: 12px;
+}
+
+.green-line {
+  width: 78px;
+  height: 4px;
+
+  background: #4b9b68;
+
+  border-radius: 10px;
+
+  margin: 0 auto 20px;
+}
+
+.coming-soon-card p {
+  color: #6b7280;
+
+  font-size: 15px;
+
+  line-height: 1.3;
+
+  max-width: 470px;
+
+  margin: auto;
+}
+
+/* Trade Routes Section */
+.trade-routes-section {
+  padding: 20px 0 40px;
+  background: #f8fafc;
+}
+
+.trade-routes-section .section-title {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.trade-routes-section .section-title h2 {
+  color: #8b3f0a;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.trade-routes-table {
+  max-width: 1120px;
+  margin: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 12px 26px rgba(0,0,0,0.08);
+}
+
+.trade-routes-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.trade-routes-table thead {
+  background: #2f8f57;
+  color: white;
+}
+
+.trade-routes-table th {
+  padding: 20px 30px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.trade-routes-table td {
+  padding: 18px 30px;
+  font-size: 17px;
+  color: #111827;
+}
+
+.trade-routes-table tbody tr:nth-child(even) {
+  background: #f4f6f8;
+}
+
+.trade-routes-table span {
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 6px 16px;
+  border-radius: 18px;
+  font-size: 15px;
+}
+
+/* Global Stats Section */
+.global-stats-section {
+  padding: 20px 0 40px;
+  background: #f4f3df;
+}
+
+.global-stat-card {
+  text-align: center;
+}
+
+.global-stat-card h2 {
+  color: #16834f;
+
+  font-size: 52px;
+
+  font-weight: 700;
+
+  line-height: 1;
+
+  margin-bottom: 10px;
+}
+
+.global-stat-card p {
+  color: #374151;
+
+  font-size: 18px;
+
+  font-weight: 500;
+
+  margin: 0;
+}
